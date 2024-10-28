@@ -2,7 +2,7 @@ function [xtable, ytable, utable, vtable, typevector] = piv_DCC (image1,image2,i
 %this funtion performs the DCC PIV analysis. Recent window-deformation
 %methods perform better and will maybe be implemented in the future.
 
-%warning off %MATLAB:log:logOfZero
+%warning off %MATLAB:log:logOfZero   添加了注释 测试一下行不行
 if numel(roi)>0
     xroi=roi(1);
     yroi=roi(2);
