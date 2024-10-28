@@ -1,0 +1,62 @@
+-------------------------------------------------------------------
+ P C O   AG   -     TECHNICAL  INFORMATION  DOCUMENT
+-------------------------------------------------------------------
+
+FOR SOFTWARE/VERSION:  
+PCO MATLAB pco_sdk_example_scripts V1.15
+
+FOR PCO PRODUCT/VERSION:
+pco.cameras 
+
+DESCRIPTION:
+The MATLAB scripts contain examples for camera setup, grabbing images to a MATLAB image stack and displaying them in a figure window.
+There are also examples, which show how to work with the pco.recorder from script file.
+
+
+CONTENTS:
+
+VERSION HISTORY
+-------------------------------
+Version 1.15
+- script for creating defines changed to exclude computed values (pco_camera_create_deffile.m) 
+- metadata functions adapted to new structure version (pco_camera_subfunction.m, pco_sdk_example_stack.m,pco_sdk_example_read.m)
+
+uses pco.recorder Version 2.04
+uses pco.sdk      Version 1.26
+
+
+Version 1.14
+- no changes
+
+Version 1.13
+- exception handling added
+- metadata handling added
+- recorder example added
+
+uses pco.recorder Version 2.03
+uses pco.sdk      Version 1.25
+
+
+KNOWN PROBLEMS:
+
+-------------------------------
+
+-------------------------------------------------------------------
+ PCO AG
+ DONAUPARK 11
+ 93309 KELHEIM / GERMANY
+ PHONE +49 (9441) 20050
+ FAX   +49 (9441) 200520
+ info@pco.de, support@pco.de
+ http://www.pco.de
+-------------------------------------------------------------------
+ DISCLAIMER
+ THE ORIGIN OF THIS INFORMATION MAY BE INTERNAL OR EXTERNAL TO PCO.
+ PCO MAKES EVERY EFFORT WITHIN ITS MEANS TO VERIFY THIS INFORMATION.
+ HOWEVER, THE INFORMATION PROVIDED IN THIS DOCUMENT IS FOR YOUR
+ INFORMATION ONLY. PCO MAKES NO EXPLICIT OR IMPLIED CLAIMS TO THE
+ VALIDITY OF THIS INFORMATION.
+-------------------------------------------------------------------
+ Any trademarks referenced in this document are the property of
+ their respective owners.
+-------------------------------------------------------------------
